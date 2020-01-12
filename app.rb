@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'logger'
+require 'ddtrace'
+require 'ddtrace/contrib/sinatra/tracer'
 
 require './helper.rb'
 

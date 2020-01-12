@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    dogstatsd-ruby (4.5.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     rack (2.1.1)
@@ -18,6 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dogstatsd-ruby
   sinatra
 
 RUBY VERSION
